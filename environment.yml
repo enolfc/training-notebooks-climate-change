@@ -1,0 +1,17 @@
+name: demo-onedata 
+channels:
+- conda-forge
+dependencies:
+- python
+- xarray
+- numpy
+- scipy
+- matplotlib
+- cartopy
+- xarray
+- pip
+- pip:
+  - git+https://github.com/EGI-Foundation/egi-notebooks-addons
+  - git+https://github.com/enolfc/fs-onedatafs.git@notebooks
+  - git+https://github.com/enolfc/onedatafs.git
+  - git+https://github.com/onedata/onedatafs-jupyter.git
