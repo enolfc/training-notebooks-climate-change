@@ -9,6 +9,7 @@ dependencies:
 - matplotlib
 - cartopy
 - xarray
+- xlrd
 - pip
 - pip:
   - git+https://github.com/EGI-Foundation/egi-notebooks-addons
