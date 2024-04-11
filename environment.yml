@@ -1,12 +1,8 @@
-name: demo-onedata 
+name: climate-change
 channels:
-- conda-forge
+  - conda-forge
 dependencies:
-- python
-- xarray
-- numpy
-- scipy
-- matplotlib
-- cartopy
-- xarray
-- xlrd
+  - matplotlib
+  - cartopy
+  - pandas
+  - xlrd
